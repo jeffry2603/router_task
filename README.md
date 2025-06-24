@@ -1,12 +1,66 @@
-# React + Vite
+E-Commerce Cart with React
+A shopping cart application built with React, React Router, and Tailwind CSS that lets users browse products and manage their cart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Product Listing Page
 
-Currently, two official plugins are available:
+Shows all products from FakeStore API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Loading animation while products load
 
-## Expanding the ESLint configuration
+Error message if loading fails
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive grid layout
+
+Shopping Cart
+
+Add and remove products
+
+Change product quantities
+
+Automatic price calculations
+
+10% discount on total
+
+Shows empty cart message
+
+Design
+
+Clean, modern interface
+
+Works on mobile and desktop
+
+Smooth animations
+
+Cart saves between visits
+
+How to Set Up
+Clone the repository
+
+Run npm install
+
+Run npm run dev to start
+
+Open browser to http://localhost:3000
+
+Main Files
+ProductCard.jsx - Shows each product
+
+CartItem.jsx - Shows items in cart
+
+Products.jsx - Product listing page
+
+Cart.jsx - Shopping cart page
+
+CartContext.jsx - Manages cart data
+
+Technologies Used
+React
+
+React Router
+
+Tailwind CSS
+
+CoreUI (for navigation)
+
+FakeStore API
